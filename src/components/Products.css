@@ -1,0 +1,61 @@
+/* Products.css */
+
+/* General container padding */
+.py {
+    padding-top: 5rem !important;
+    padding-bottom: 3rem !important;
+  }
+  
+  /* Product card styling */
+  .product-card {
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 100%; /* Ensures all cards have equal height */
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Image styling to ensure consistency */
+  .product-image {
+    height: 250px;
+    object-fit: contain;
+  }
+  
+  /* Title styling with fixed size */
+  .product-title {
+    font-size: 1.2rem; /* Fixed font size for title */
+    font-weight: bold;
+    margin-bottom: 10px;
+    line-height: 1.2; /* Ensures consistent spacing */
+    height: 45px; /* Fixed height to ensure uniformity */
+    overflow: hidden; /* Handle long titles with ellipsis */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  /* Description with fixed size */
+  .product-description {
+    font-size: 0.9rem; /* Fixed font size for description */
+    color: #666;
+    margin-bottom: 15px;
+    line-height: 1.3;
+    height: 60px; /* Fixed height to ensure uniformity */
+    overflow: hidden; /* Handle long descriptions */
+    text-overflow: ellipsis;
+  }
+  
+  /* Price styling */
+  .product-price {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  /* Add to cart button */
+  button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+  

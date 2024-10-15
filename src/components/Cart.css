@@ -1,0 +1,41 @@
+.table-custom {
+    margin-bottom: 20px;
+  }
+  
+  .table-custom tbody tr td {
+    vertical-align: middle;
+    text-align: center;
+  }
+  
+  .table-custom thead th {
+    text-align: center;
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  .table-custom tbody tr td img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .btn-clear-cart {
+    margin-bottom: 20px;
+    font-size: 1.2rem !important;
+  }
+  
+  .btn-delete-product {
+    padding: 0.5rem 1rem !important;
+    font-size: 1rem ;
+  }
+  
+  /* Total Price Styling */
+  .total-price {
+    text-align: right;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  
+  
